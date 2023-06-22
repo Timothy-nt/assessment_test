@@ -1,5 +1,7 @@
 Task 1
+
 Explanation:
+
 The program starts by creating a Scanner object to read user input.
 The main method calls the getValidInput method to get a positive integer from the user.
 The getValidInput method repeatedly prompts the user for input until a valid positive integer is entered. It catches NumberFormatException if the input cannot be parsed as an integer.
