@@ -27,6 +27,16 @@ After iterating through the entire list, the function returns the maximum differ
 This implementation has a time complexity of O(n), where n is the size of the input list. It handles lists of any size and accounts for duplicates. It also handles the edge case of a list with less than two elements by returning 0.
 
 Assessments Q3
+  
+  Explanation:
+
+The query uses the SELECT statement to retrieve data from the "employees" table.
+The * symbol after SELECT specifies that all columns should be selected. You can replace * with specific column names if you only need certain columns.
+The FROM keyword indicates the table from which the data is retrieved, in this case, "employees".
+The WHERE clause is used to specify the conditions that the employees must meet. In this case, we have two conditions: age > 30 and salary > 50000.
+The AND operator combines the two conditions, ensuring that both conditions must be true for an employee to be selected.
+The result of the query will be all rows from the "employees" table where the age is above 30 and the salary is above $50,000.
+The query is straightforward, easy to understand, and maintains good readability. It efficiently filters the data based on the specified conditions.
 
 
 
