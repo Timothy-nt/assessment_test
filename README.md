@@ -1,4 +1,4 @@
-Task 1
+Assessments Q1
 
 Explanation:
 
@@ -12,4 +12,23 @@ The loop continues until the current number exceeds the given input number.
 Finally, the program closes the Scanner object.
 The program handles invalid input by displaying appropriate error messages and asking the user to enter a valid positive integer. It also ensures modularity by separating the input validation and Fibonacci sequence generation into separate methods
 
-Task 2
+Assessments Q2
+
+Explanation:
+
+The function findLargestDifference takes a List<Integer> as input and returns the largest difference between any two numbers in the list.
+The function first checks if the list has less than two elements. In such cases, it returns 0 since there are not enough numbers to calculate a difference.
+The function initializes min as the first number in the list and maxDiff as the difference between the second number and the first number.
+It then iterates through the list starting from the second element.
+In each iteration, it calculates the difference between the current number and the minimum number seen so far (diff).
+If the calculated difference is greater than the current maximum difference (maxDiff), it updates maxDiff accordingly.
+If the current number is less than the current minimum number (min), it updates min to the current number.
+After iterating through the entire list, the function returns the maximum difference found.
+This implementation has a time complexity of O(n), where n is the size of the input list. It handles lists of any size and accounts for duplicates. It also handles the edge case of a list with less than two elements by returning 0.
+
+Assessments Q3
+
+
+
+
+
