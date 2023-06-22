@@ -38,7 +38,11 @@ The AND operator combines the two conditions, ensuring that both conditions must
 The result of the query will be all rows from the "employees" table where the age is above 30 and the salary is above $50,000.
 The query is straightforward, easy to understand, and maintains good readability. It efficiently filters the data based on the specified conditions.
 
+Assessments Q4
 
-
+The bug in the code is related to the calculation of the average. The code currently performs integer division, which truncates the decimal part of the result. To fix this, we need to change the division operation to perform floating-point division.
+To fix the bug, we need to cast total to a double before performing the division. By casting total to double, the division operation will result in floating-point division instead of integer division. This ensures that the decimal part of the average is preserved.
+In the corrected code, the line double average = (double) total / numbers.length; performs the necessary floating-point division. The (double) casts the total to a double before the division is performed.
+The corrected code is well-structured, modular, and readable. It addresses the bug by using floating-point division to calculate the average correctly
 
 
